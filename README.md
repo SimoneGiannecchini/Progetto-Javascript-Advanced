@@ -1,74 +1,56 @@
-Ricerca Libri - Open Library API
+# 📚 Ricerca Libri con Open Library API
 
-📌 Descrizione
+Questa applicazione web permette di cercare libri per categoria utilizzando le API di Open Library. Gli utenti possono visualizzare il titolo, gli autori e i dettagli dei libri e salvare i preferiti su Firebase Firestore.
 
-Questa applicazione web permette di cercare libri per categoria utilizzando le API di Open Library. L'utente può visualizzare titolo, autori e dettagli dei libri e salvare i suoi preferiti su Firebase.
+## 🚀 Funzionalità
 
-🚀 Funzionalità
+- 🔍 **Ricerca per categoria** tramite Open Library API
+- 📖 **Visualizzazione elenco libri** con titolo e autori
+- 📚 **Dettagli libro** con descrizione completa
+- ⭐ **Salvataggio preferiti** su Firebase Firestore
+- 🎨 **UI semplice e intuitiva**
 
-Ricerca per categoria tramite API Open Library
+## 🏗️ Tecnologie Utilizzate
 
-Visualizzazione elenco libri con titolo e autori
+- **Frontend**: HTML, CSS, JavaScript (Vanilla JS)
+- **Backend/API**: Open Library API
+- **Database**: Firebase Firestore
 
-Dettagli libro con descrizione completa
+## 🔗 API Utilizzate
 
-Salvataggio preferiti su Firebase Firestore
+- **Ricerca libri**: [https://openlibrary.org/subjects/{categoria}.json](https://openlibrary.org/subjects/{categoria}.json)
+- **Dettagli libro**: [https://openlibrary.org/works/{book_key}.json](https://openlibrary.org/works/{book_key}.json)
 
-UI semplice e intuitiva
+## 🛠️ Installazione e Utilizzo
 
-🏗️ Tecnologie Utilizzate
+1. **Clona il repository**
+   ```sh
+   git clone https://github.com/tuo-username/ricerca-libri.git
+   cd ricerca-libri
+   ```
+2. **Apri il file `index.html` nel browser**
+3. **Configura Firebase** inserendo le credenziali nel file JavaScript
+4. **Avvia la ricerca** e salva i tuoi preferiti!
 
-Frontend: HTML, CSS, JavaScript (Vanilla JS)
+## 📸 Demo
 
-Backend/API: Open Library API
+1. Inserisci una categoria nella barra di ricerca (es. "fantasy").
+2. Visualizza i libri con titolo e autori.
+3. Clicca su un libro per vedere la descrizione.
+4. Salva il libro nei preferiti con Firebase.
 
-Database: Firebase Firestore
+## 🖼️ Screenshot
 
-🔗 API Utilizzate
+Assicurati di caricare gli screenshot nella cartella `assets/` del progetto.
 
-Ricerca libri: https://openlibrary.org/subjects/{categoria}.json
+## 🏆 Contributi
 
-Dettagli libro: https://openlibrary.org/works/{book_key}.json
+Sentiti libero di contribuire aprendo **issue** o **pull request**!
 
-🛠️ Installazione e Utilizzo
+## 📜 Licenza
 
-Clona il repository
+Questo progetto è rilasciato sotto licenza **MIT**.
 
-git clone https://github.com/tuo-username/ricerca-libri.git
-cd ricerca-libri
-
-Apri il file index.html nel browser
-
-Configura Firebase inserendo le credenziali nel file JavaScript
-
-Avvia la ricerca e salva i tuoi preferiti!
-
-📸 Demo
-
-Inserisci una categoria nella barra di ricerca (es. "fantasy").
-
-Visualizza i libri con titolo e autori.
-
-Clicca su un libro per vedere la descrizione.
-
-Salva il libro nei preferiti con Firebase.
-
-🖼️ Screenshot
-
-Esempio di interfaccia dell'applicazione:
-
-
-
-
-
-Assicurati di caricare gli screenshot nella cartella assets/ del progetto.
-
-🏆 Contributi
-
-Sentiti libero di contribuire aprendo issue o pull request!
-
-📜 Licenza
-
-Questo progetto è rilasciato sotto licenza MIT.
-
+---
 ✨ Grazie per il tuo interesse! 🚀
+
