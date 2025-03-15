@@ -61,7 +61,7 @@ const firebaseConfig = {
       descrizioneElemento.classList.add('descrizione');
       descrizioneElemento.innerHTML = 'Caricamento descrizione...';
       elementoCliccato.after(descrizioneElemento);
-      descrizioneElemento.style.fontSize = "20px";
+      descrizioneElemento.style.fontSize = "24px";
       descrizioneElemento.style.lineheight = "1.6";
       try {
           const res = await fetch(url);
@@ -114,11 +114,6 @@ document.getElementById("cercaBtn").addEventListener("click", function () {
     console.log("Ricerca per categoria:", categoria);
    
 });
-
-
-
-
-
 function adattaBarraRicerca() {
     const input = document.getElementById("categoriaInput");
     const button = document.getElementById("cercaBtn");
