@@ -12,13 +12,13 @@ Questa applicazione web permette di cercare libri per categoria utilizzando le A
 
 ## 🏗️ Tecnologie Utilizzate
 
-- **Frontend**: HTML, CSS, JavaScript (Vanilla JS)
+- **Frontend**: HTML, CSS, JavaScript 
 - **Backend/API**: Open Library API
 - **Database**: Firebase Firestore
 
 ## 🔗 API Utilizzate
 
-- **Ricerca libri**: [https://openlibrary.org/subjects/{categoria}.json](https://openlibrary.org/subjects/{categoria}.json)
+- **Ricerca libri**: [[https://openlibrary.org/subjects/{categoria}.json](https://openlibrary.org/subjects/fantasy.json  )]
 - **Dettagli libro**: [https://openlibrary.org/works/{book_key}.json](https://openlibrary.org/works/{book_key}.json)
 
 ## 🛠️ Installazione e Utilizzo
