@@ -19,7 +19,7 @@ Questa applicazione web permette di cercare libri per categoria utilizzando le A
 ## 🔗 API Utilizzate
 
 - **Ricerca libri**: [[https://openlibrary.org/subjects/{categoria}.json](https://openlibrary.org/subjects/fantasy.json  )]
-- **Dettagli libro**: [https://openlibrary.org/works/{book_key}.json](https://openlibrary.org/works/{book_key}.json)
+- **Dettagli libro**: [https://openlibrary.org/works/{book_key}.json](https://openlibrary.org/works/OL8193508W.json)
 
 ## 🛠️ Installazione e Utilizzo
 
