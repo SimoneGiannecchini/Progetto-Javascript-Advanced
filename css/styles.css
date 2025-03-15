@@ -64,10 +64,13 @@ ul li:hover {
 
 #descrizione {
   background-color: rgba(0, 0, 0, 0.85);
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: justify;
+  max-width: 90%;
   padding: 15px;
   margin-top: 20px;
   border-radius: 4px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   display: none;
-  text-align: left;
-}/*# sourceMappingURL=styles.css.map */
+}
