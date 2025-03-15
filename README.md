@@ -1,7 +1,7 @@
 # 📚 Ricerca Libri con Open Library API
-prova subito https://simonegiannecchini.github.io/Progetto-Javascript-Advanced/
-Questa applicazione web permette di cercare libri per categoria utilizzando le API di Open Library. Gli utenti possono visualizzare il titolo, gli autori e i dettagli dei libri e salvare i preferiti su Firebase Firestore.
 
+Questa applicazione web permette di cercare libri per categoria utilizzando le API di Open Library. Gli utenti possono visualizzare il titolo, gli autori e i dettagli dei libri e salvare i preferiti su Firebase.
+prova subito https://simonegiannecchini.github.io/Progetto-Javascript-Advanced/
 ## 🚀 Funzionalità
 
 - 🔍 **Ricerca per categoria** tramite Open Library API
