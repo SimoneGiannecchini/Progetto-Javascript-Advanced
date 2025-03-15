@@ -14,7 +14,7 @@ Questa applicazione web permette di cercare libri per categoria utilizzando le A
 
 - **Frontend**: HTML, CSS, JavaScript 
 - **Backend/API**: Open Library API
-- **Database**: Firebase Firestore
+- **Database**: Firebase https://firebase.google.com/
 
 ## 🔗 API Utilizzate
 
