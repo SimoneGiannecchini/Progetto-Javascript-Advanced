@@ -7,7 +7,7 @@ prova subito https://simonegiannecchini.github.io/Progetto-Javascript-Advanced/
 - 🔍 **Ricerca per categoria** tramite Open Library API
 - 📖 **Visualizzazione elenco libri** con titolo e autori
 - 📚 **Dettagli libro** con descrizione completa
-- ⭐ **Salvataggio preferiti** su Firebase Firestore
+- ⭐ **Salvataggio preferiti** su Firebase 
 - 🎨 **UI semplice e intuitiva**
 
 ## 🏗️ Tecnologie Utilizzate
