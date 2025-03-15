@@ -61,7 +61,8 @@ const firebaseConfig = {
       descrizioneElemento.classList.add('descrizione');
       descrizioneElemento.innerHTML = 'Caricamento descrizione...';
       elementoCliccato.after(descrizioneElemento);
-  
+      descrizioneElemento.style.fontSize = "20px";
+      descrizioneElemento.style.lineheight = "1.6";
       try {
           const res = await fetch(url);
           if (!res.ok) throw new Error('Errore nel caricamento descrizione libro.');
@@ -113,3 +114,40 @@ document.getElementById("cercaBtn").addEventListener("click", function () {
     console.log("Ricerca per categoria:", categoria);
    
 });
+
+
+
+
+
+function adattaBarraRicerca() {
+    const input = document.getElementById("categoriaInput");
+    const button = document.getElementById("cercaBtn");
+    const container = document.querySelector(".container");
+
+    if (window.innerWidth <= 768) { 
+        input.style.width = "90%"; 
+        input.style.fontSize = "18px"; 
+        input.style.padding = "15px"; 
+
+        button.style.fontSize = "18px"; 
+        button.style.padding = "12px 20px"; 
+    } 
+
+    if (window.innerWidth <= 480) { 
+        input.style.width = "85%"; 
+        input.style.fontSize = "20px"; 
+        input.style.padding = "18px"; 
+
+        button.style.fontSize = "20px";
+        button.style.padding = "14px 22px";
+    }
+
+
+    container.style.maxWidth = "700px"; 
+    container.style.margin = "auto"; 
+}
+
+
+document.addEventListener("DOMContentLoaded", adattaBarraRicerca);
+window.addEventListener("resize", adattaBarraRicerca);
+
