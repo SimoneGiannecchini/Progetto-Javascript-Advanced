@@ -49,7 +49,7 @@ Sentiti libero di contribuire aprendo **issue** o **pull request**!
 
 ## 📜 Licenza
 
-Questo progetto è rilasciato sotto licenza *[*MI](https://opensource.org/license/mit)T**.
+Questo progetto è rilasciato sotto licenza *[*MIT](https://opensource.org/license/mit)**.
 
 ---
 ✨ Grazie per il tuo interesse! 🚀
